@@ -22,8 +22,8 @@ void seed() {
 	bool b = true;
 	int x, y;
 	while (b) {
-		x = rand() % 3;
-		y = rand() % 3;
+		x = rand() % 4;
+		y = rand() % 4;
 		if (a[y][x] == 0) {
 			a[y][x] = ((rand() % 11) > 0 ? 2 : 4);
 			b = false;
